@@ -1,0 +1,37 @@
+The Premise: No elaborate story, no save points,
+simply shoot fireballs, kill monsters, and collect loot.
+
+- Touchscreen and keyboard controls.
+- Fits phones, tablets, desktops, and tvs
+
+start screen
+  - link to about page
+level 1
+  - loot: dagger
+level 2
+  - loot: helmet
+level 3
+  - loot: speedy shoes
+level 4
+  - loot: magic robes (+1 fireball)
+level 5
+  - loot: blue fireball skill
+more loot ideas
+  - traps
+  - magic rod
+
+Monsters and Traps:
+  Fire geysers: Spring up randomly to keep the hero on his toes. The more damage
+    the crystal has taken, the more geysers pop up
+  Minions: Twins that are immune to blades, and will take one piece of the
+    hero's armor instead of his life, if he's got it.
+  Spiders: Walk along the ceiling until right above the hero, then drop and
+    spin him up.
+  Gelatinous Blob: splits in to two minions when hit
+  Snake Boss: Can be slowed, take double head shot damage, and turn to stone
+    and crumble away on death, leaving behind a treasure.
+  Rock Golems: Throw rocks, and drop loot.
+
+/****************************** BUG LIST **************************************/
+- spider halt is buggy, replace with visible damage and slowed instead
+- boss animation is flickery :(

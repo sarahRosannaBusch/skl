@@ -1,0 +1,22 @@
+<html>
+<body>
+  <p id="demo"></p>
+
+  <script>
+    function minion(position)
+    {
+      this.position = position;
+      this.move = function (speed)
+      {
+        this.position += speed;
+        document.getElementById("demo").innerHTML =
+        "Minion Position: " + m1.position;
+      }
+    }
+
+    var m1 = new minion(1150);
+    var mTimer = setInterval("m1.move(-10)", 100);
+  </script>
+
+</body>
+</html>
