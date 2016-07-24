@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skl>
+
+  <hero>
+    <rightPos> heroMoves </rightPos>
+    <animationCount> deathCount </animationCount>
+  </hero>
+
+  <minion>
+    <m1Pos> m1 </m1Pos>
+    <m2Pos> m2 </m2Pos>
+  </minion>
+
+  <spider>
+    <position> spiderPos </position>
+    <immobilized> spiderHalt </immobilized>
+  </spider>
+
+  <boss>
+    <position> bossMoves </position>
+    <hitPoints> bossHP </hitPoints>
+    <slowed> slowed </slowed>
+    <animationCount> deathCount </animationCount>
+  </boss>
+
+  <fireGeyser>
+    <position> geyserPos </position>
+    <animationCount> geyserTimer </animationCount>
+  </fireGeyser>
+
+</skl>

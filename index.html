@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <title> SKL </title>
+  <meta charset="UTF-8"> <!-- 16-bit Unicode -->
+  <meta name="author" content="Sarah Rosanna Busch">
+  <meta name="date" content="December 2015">
+  <meta name="description" content="Shoot, Kill, Loot is a game where you shoot monstors with fireballs.">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for small screens-->
+</head>
+<body onload="startScreen()">
+  <header>
+    <img id="logo" src="images/logo.png">
+  </header>
+  <main>
+    <input id="gameKey" type="text" autofocus
+      onkeydown="userInput(event)"
+      onblur="formFocus()"><!-- keep focus on this form so keyboard controls hero (there is a better way to do this, but I couldn't find it at the time) -->
+    <div id="gameArea">
+      ...
+    </div>
+  </main>
+  <footer>
+    <input type="button" id="startButton" onclick="startGame()" value="Play">
+    <p style='color:grey; text-align:left'><br>
+      Use RIGHT and LEFT arrow keys to MOVE. <br>
+      Use UP and DOWN arrow keys to AIM. <br>
+      Press the SPACEBAR to shoot a FIREBALL. <br>
+      REFRESH the page to TRY AGAIN.
+    </p>
+  </footer>
+</body>
+<script src="startScreen.js"></script>
+<script src="mainScripts.js"></script>
+<script src="level1.js"></script>
+<script src="hero.js"></script>
+<script src="fireball.js"></script>
+<script src="minion.js"></script>
+<script src="boss.js"></script>
+<script src="fireGeyser.js"></script>
+<script src="spider.js"></script>
+</html>

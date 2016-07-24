@@ -1,0 +1,172 @@
+body
+{
+  background-color: black;
+  text-align: center;
+  color: white; /*default font colour*/
+  overflow: hidden;
+}
+
+header
+{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 25%;
+}
+
+img#logo
+{
+  position: absolute;
+  width: 15%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer
+{
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  bottom: 0%;
+}
+
+div#gameArea
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /*keeps this centered*/
+  width: 99%;
+  height: 50%;
+  max-height: 30vw; /*Relative to 1% of the width of the viewport*/
+  min-height: 200px;
+  background-color: dimgrey;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  overflow: hidden;
+}
+
+input#gameKey
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /*hidden behind game area*/
+}
+
+p#story
+{
+  position: absolute;
+  font-family: cursive;
+  width: 365px;
+  margin-top: unset;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /*moves the p up by half it's height*/
+}
+
+input#startButton
+{
+  position: absolute;
+  width: 18%;
+  height: 50%;
+  left: 40%;
+  top: 25%;
+  font-family: sans-serif;
+  border-width: 5px;
+}
+
+img#heroLegs
+{
+  position: absolute;
+  right: 85%;
+  bottom: 0%;
+  width: 15%;
+  height: 100%;
+  z-index: 11;
+}
+
+img#heroArms
+{
+  position: absolute; /*relative to nearest positionned ancestor*/
+  right: 85%;
+  bottom: 0%;
+  width: 15%;
+  height: 100%;
+  z-index: 12;
+}
+
+
+img#fireball
+{
+  position: absolute;
+  visibility: hidden;
+  height: 10%;
+  width: auto;
+  z-index: 99;
+}
+
+img#geyser
+{
+  position: absolute;
+  visibility: hidden;
+  bottom: 0%;
+  height: 50%;
+  width: 15%;
+  z-index: 1;
+}
+
+img.minion
+{
+  visibility: hidden;
+  position: absolute;
+  left: 90%;
+  bottom: 2%;
+  height: 15%;
+  width: 10%;
+}
+
+img#minion1
+{
+  z-index: 3;
+}
+
+img#minion2
+{
+  z-index: 4;
+}
+
+img#spider
+{
+  visibility: hidden;
+  position: absolute;
+  top: -2%;
+  left: 80%;
+  height: 15%;
+  width: 15%;
+  z-index: 20;
+}
+
+img#boss
+{
+  visibility: hidden;
+  position: absolute;
+  left: 80%;
+  bottom: 2%;
+  width: 20%;
+  height: 90%;
+  z-index: 5;
+}
+
+img#twinkle
+{
+  visibility: hidden;
+  position: absolute;
+  width: 20%;
+  height: 60%;
+  z-index: 6;
+}
